@@ -12,19 +12,20 @@ global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
 global.email = 'botwhatsapp204@gmail.com' ;
 global.location = 'Rathnapura SriLanka' ;
-global.timezone  = process.env.TIME_ZONE || 'Asia/Colombo'
+global.timezone  = process.env.TIME_ZONE || 'Asia/Rathnapura'
 global.gurl = 'https://youtube.com/@gamingewingyt6216' ; // add your username
-global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94766943622'; ;
+global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94771472232'; ;
 global.devs = "923184474176"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/vajirabot1/KING-VAJIRA-MD';
 global.scan  = process.env.QR_URL || 'https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD?v=1';
-global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' ; //wa.me/+923000000000
+global.website = 'https://github.com/vajirabot1/KING-VAJIRA-MD' ; //wa.me/+94771472232
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'ᴠᴀᴊɪʀᴀ-ᴍᴅ',
-  botbgm: process.env.BOT_BGM || 'false',
-  ownername:  process.env.OWNER_NAME || `It'x vajira`,
+  sessionName: process.env.SESSION_ID || "VAJIRA;;;ChainedBalloons
+",      //Put Your Session Id Here
+  botname: process.env.BOT_NAME || 'ɪ𝗧's 𝐌ᴇ 𝐒ᴀ𝖧α𝗡....🩷🌳',
+  botbgm: process.env.BOT_BGM || 'true',
+  ownername:  process.env.OWNER_NAME || `ɪ𝗧's 𝐌ᴇ 𝐒ᴀ𝖧α𝗡....🩷🌳`,
   author:  process.env.PACK_AUTHER || '',
   autovoice: process.env.AUTO_VOICE || 'true',
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
@@ -54,7 +55,7 @@ module.exports = {
   VERSION: process.env.VERSION || 'v.1.2.2',
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'VAJIRA',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Vajira-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'privert',
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
   KOYEB_API : process.env.KOYEB_API || ''
 };
 
